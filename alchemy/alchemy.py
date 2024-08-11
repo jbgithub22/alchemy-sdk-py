@@ -96,7 +96,7 @@ class Alchemy:
             >>> Alchemy.to_hex(hexstr='0x000F')
             '0x000f'
         """
-        return Web3.toHex(primitive, hexstr, text)  # type: ignore
+        return Web3.to_hex(primitive, hexstr, text)  # type: ignore
 
     @staticmethod
     def to_text(
